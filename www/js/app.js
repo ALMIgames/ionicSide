@@ -59,6 +59,26 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       }
     })
 
+  .state('app.testcase1', {
+      url: '/testcase1',
+      views: {
+          'menuContent': {
+              templateUrl: 'templates/testcase1.html'
+          }
+      }
+  })
+
+  .state('app.testcase2', {
+      url: '/testcase2',
+      views: {
+          'menuContent': {
+              templateUrl: 'templates/testcase2.html'
+          }
+      }
+  })
+
+
+
   .state('app.single', {
     url: '/playlists/:playlistId',
     views: {
